@@ -1,0 +1,3 @@
+#!/bin/bash
+#Returns bit type of file - 32bit or 64bit
+file $1 | cut -d, -f2
